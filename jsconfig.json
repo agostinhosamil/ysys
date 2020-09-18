@@ -2,6 +2,8 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
+			"~/*": ["./*"],
+			"@img/*": ["ysrc/www/img/*"],
 			"@components/*": ["ysrc/components/*"],
 			"@styles/*": ["ysrc/components/styles/*"]
 		}

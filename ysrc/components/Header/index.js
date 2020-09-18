@@ -1,2 +1,9 @@
+import { Container } from './styles'
 
-export default () => <span>Header Here</span> 
+const Header = () => (
+	<Container>
+		<h1>Header</h1>
+	</Container>
+)
+
+export default Header
